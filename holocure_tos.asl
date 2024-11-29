@@ -46,8 +46,19 @@ init
 update
 {
     if (version == "") return false;
+    //Check if the player is inside the tower
+    if(current.PosX >= 80 && current.PosX <= 560 && current.PosY >= 90 && current.PosY <= 16000){
+        return true;
+    }else{
+        return false; // If the player is not inside the tower, return false
+    }
     //print("PlayerObject:"+current.PosX+","+current.PosY +"\n" + "JumpProgress:" + current.JumpProgress); // uncomment this to print the current position in dbgview
     return true;
+}
+
+isLoading 
+{
+	return true;
 }
 
 gameTime
@@ -126,7 +137,7 @@ split
 // Final Tower: 90%, posy <= 2624
 // Time: 100%, posy <= 1040
 // -----------------------------------------------------------------------------
-
+// Tower Dimensions: Position X = 84-557, Position Y = 16000-1000 // Y is decreasing if you go up the tower
 
 start
 {
