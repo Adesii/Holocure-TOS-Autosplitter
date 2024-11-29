@@ -1,10 +1,11 @@
 # Setup
 
-- Download files and extract them somewhere
-- Open LiveSplit
-- Right Click and open splits from file
-- Then Right Click again and open the loadout from file
-- Finally edit the layout and select the asl file in the Auto splitter component
+1. Download files and extract them somewhere
+2. Open LiveSplit
+3. Right Click and open splits from file
+4. 1. Add a **Scriptable Auto Splitter** to your current layout
+   2. **OR** use the included Layout if you don't already have one yourself
+5. Finally edit the layout and select the asl file in the Auto splitter component
   ![grafik](https://github.com/user-attachments/assets/bcf89c16-911c-4210-bdb6-32fe80fa3a2d)
 
 # How to use
